@@ -2,7 +2,7 @@ import myImage from '../assets/me.jpg';
 
 const Landing = () => {
     return (
-        <section className="py-60 w-full flex flex-col md:flex-row items-center justify-center gap-12">
+        <section className="py-30 lg:py-60 w-full flex flex-col md:flex-row items-center justify-center gap-12">
         {/* Text Section */}
         <div className="text-center md:text-left space-y-6">
             <h1 className="text-4xl sm:text-5xl font-bold leading-tight">

@@ -7,8 +7,7 @@ const Navbar = () => {
 
   return (
         <>
-        {/* Navbar */}
-        <header className="fixed top-0 w-full shadow-sm z-50">
+        <header className="fixed top-0 w-full shadow-sm z-50 navbar-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             {/* Left: Logo */}
             <div className="text-2xl font-bold text-red-600 tracking-tight text-white">
