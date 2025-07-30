@@ -1,12 +1,14 @@
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
+import Experience from './components/Experience';
 
 function App() {
   return (
     <>
       <Navbar />
-      <main className="flex items-center justify-center text-white px-4">
+      <main className="text-white">
         <Landing />
+        <Experience />
       </main>
     </>
   );
