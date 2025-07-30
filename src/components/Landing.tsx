@@ -2,7 +2,6 @@ import myImage from '../assets/me.jpg';
 
 const Landing = () => {
     return (
-    <main className="flex items-center justify-center text-white px-4 pt-10">
         <section className="py-60 w-full flex flex-col md:flex-row items-center justify-center gap-12">
         {/* Text Section */}
         <div className="text-center md:text-left space-y-6">
@@ -29,7 +28,6 @@ const Landing = () => {
             />
         </div>
         </section>
-    </main>
     );
 };
 

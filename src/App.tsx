@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Landing />
+      <main className="flex items-center justify-center text-white px-4 pt-10">
+        <Landing />
+      </main>
     </>
   );
 }
