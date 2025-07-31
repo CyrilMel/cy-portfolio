@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import Experience from './components/Experience';
 import Project from './components/Project';
+import Certificate from './components/Certificate';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Landing />
         <Experience />
         <Project />
+        <Certificate />
       </main>
     </>
   );

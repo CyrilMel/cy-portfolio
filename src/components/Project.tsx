@@ -24,14 +24,16 @@ const projectData = [
       'ITSQR (Information Technology Society QR) is a smart attendance system designed specifically for BSIT students at PCC. By leveraging QR code technology, ITSQR streamlines the attendance process, reducing manual work and minimizing errors.',
     techStack: ['PHP'],
     image: momecophImage,
-    link: 'https://shopaqua.onrender.com',
   },
 ];
 
 const Project = () => {
   return (
     <section className="py-20 w-full flex flex-col items-center">
-      <h2 className="text-4xl font-bold text-center mb-16 tracking-tight">Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-16 tracking-tight">
+        Projects
+        <span className="block w-24 h-1 bg-primary-600 mx-auto mt-3 rounded-full"></span>
+      </h2>
       <div className="grid gap-8 px-4 md:grid-cols-2 lg:grid-cols-3 max-w-7xl">
         {projectData.map((project, index) => (
           <a
