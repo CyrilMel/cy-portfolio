@@ -3,6 +3,7 @@ import Landing from './components/Landing';
 import Experience from './components/Experience';
 import Project from './components/Project';
 import Certificate from './components/Certificate';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Experience />
         <Project />
         <Certificate />
+        <Contact />
       </main>
     </>
   );

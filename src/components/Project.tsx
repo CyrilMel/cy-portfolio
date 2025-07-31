@@ -1,5 +1,6 @@
 import momecophImage from '../assets/momecoph.jpg';
 import aquaImage from '../assets/aqua.jpg';
+import pccImage from '../assets/pcc.png';
 
 const projectData = [
   {
@@ -23,7 +24,7 @@ const projectData = [
     description:
       'ITSQR (Information Technology Society QR) is a smart attendance system designed specifically for BSIT students at PCC. By leveraging QR code technology, ITSQR streamlines the attendance process, reducing manual work and minimizing errors.',
     techStack: ['PHP'],
-    image: momecophImage,
+    image: pccImage,
   },
 ];
 
