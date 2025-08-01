@@ -1,17 +1,22 @@
-const express = require('express');
-const path = require('path');
+// server.js
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Serve static files from dist
+// Serve static files from the dist directory
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// For SPA: fallback to index.html for unknown routes
+// Handle all other routes with index.html (for SPA routing)
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
 });
