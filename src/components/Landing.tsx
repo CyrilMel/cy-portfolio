@@ -28,7 +28,7 @@ const Landing = () => {
   return (
     <>
       {/* Main Section */}
-      <section className="py-30 lg:pt-40 lg:pb-30 w-full flex flex-col md:flex-row items-center justify-center gap-12">
+      <section className="py-30 px-5 lg:pt-40 lg:pb-30 w-full flex flex-col md:flex-row items-center justify-center gap-12">
         {/* Text Section */}
         <div className="text-center md:text-left space-y-6">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
@@ -41,7 +41,7 @@ const Landing = () => {
             Eager to grow in collaborative environments and contribute to real-world projects.
           </p>
           {/* Social Links - vertically aligned */}
-          <div className="flex flex-row items-start gap-4 mt-4">
+          <div className="flex flex-row items-start justify-center md:justify-start gap-4 mt-4">
             <a
               href="https://github.com/CyrilMel"
               target="_blank"
@@ -68,10 +68,9 @@ const Landing = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-96 h-96 rounded-lg overflow-hidden border border-white">
+        <div className="md:w-96 md:h-96 sm:w-32 sm:h-32 rounded-lg overflow-hidden border border-white">
           <img
             src={myImage}
-            alt="Your Portrait"
             className="w-full h-full object-cover"
           />
         </div>

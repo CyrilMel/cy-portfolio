@@ -5,7 +5,7 @@ const Contact = () => {
     Contact Me
   </h2>
 
-  <div className="flex flex-col md:flex-row gap-10 text-center md:text-left text-lg">
+  <div className="flex flex-col lg:flex-row gap-10 text-center md:text-left text-lg">
     <p>
       Email:{" "}
       <a
@@ -24,7 +24,7 @@ const Contact = () => {
         rel="noopener noreferrer"
         className="underline hover:text-red-500 transition"
       >
-        linkedin.com/in/cyril-mel-macapugas
+        cyril-mel-macapugas
       </a>
     </p>
   </div>
