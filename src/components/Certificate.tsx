@@ -43,7 +43,7 @@ const Certificates = () => {
   return (
     <section className="py-20 px-6 w-full flex flex-col items-center bg-black">
       <h2 className="text-4xl font-bold text-center mb-16 tracking-tight">
-        Certificate
+        Certificates
         <span className="block w-24 h-1 bg-primary-600 mx-auto mt-3 rounded-full"></span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
