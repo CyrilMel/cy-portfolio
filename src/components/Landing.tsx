@@ -14,6 +14,7 @@ const techBadges = [
   "https://img.shields.io/badge/render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white",
   "https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white",
   "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D",
+  "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
   "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
   "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
   "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
@@ -28,18 +29,18 @@ const Landing = () => {
   return (
     <>
       {/* Main Section */}
-      <section className="py-30 px-5 lg:pt-40 lg:pb-30 w-full flex flex-col md:flex-row items-center justify-center gap-12">
+      <section className="px-5 lg:pt-40 lg:pb-30 w-full flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Text Section */}
         <div className="text-center md:text-left space-y-6">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
             Hi, I’m <span className="hl">Cyril</span><br />
-            <span className="text-white">An aspiring Full Stack Developer</span>
+            <span className="text-white">Aspiring QA Engineer</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-xl">
-            Passionate about building scalable and user-friendly web applications with hands-on experience in frontend development and RESTful APIs. 
-            Skilled in JavaScript, Vue, Laravel, MongoDB, and MySQL. 
-            Eager to grow in collaborative environments and contribute to real-world projects.
-          </p>
+              Passionate about ensuring software quality and reliability through careful testing and analysis. 
+              Experienced in frontend development and RESTful APIs, with skills in JavaScript, Vue, Laravel, MongoDB, and MySQL. 
+              Detail-oriented, eager to grow in QA and development, and committed to delivering efficient and user-friendly solutions.
+            </p>
           {/* Social Links - vertically aligned */}
           <div className="flex flex-row items-start justify-center md:justify-start gap-4 mt-4">
             <a
@@ -85,7 +86,7 @@ const Landing = () => {
               key={i}
               src={url}
               alt={`Badge ${i}`}
-              className="h-9"
+              className="h-9 hover:scale-[1.22] transition duration-300"
               loading="lazy"
             />
           ))}

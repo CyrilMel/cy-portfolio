@@ -12,10 +12,10 @@ const Contact = () => {
         href="mailto:cyrilmelmacapugas@gmail.com"
         className="underline hover:text-red-500 transition"
       >
-        cyrilmelmacapugas@gmail.com
+        cyrilmel09282001@gmail.com
       </a>
     </p>
-    <p>Contact: +63 912 345 6789</p>
+    <p>Contact: +63 995 417 1790</p>
     <p>
       LinkedIn:{" "}
       <a
