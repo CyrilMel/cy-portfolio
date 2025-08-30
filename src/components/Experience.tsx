@@ -10,6 +10,16 @@ const experienceData = [
     ]
 },
 {
+    title: "Bachelor of Science in Information Technology",
+    company: "Pasig Catholic College",
+    date: "May 2025",
+    bullets: [
+    "Developed projects using HTML, CSS, JavaScript, C++, Java, and Ionic",
+    "Integrated cloud services with Firebase for web and mobile applications",
+    "Created technical documentation including ERDs, system workflows, and research papers",
+    ]
+},
+{
     title: "3rd & 4th Year Beadle, IT Society Organization Member",
     company: "Pasig Catholic College",
     date: "Sept 2023 - May 2025",
@@ -17,6 +27,16 @@ const experienceData = [
     "Organized and facilitated IT student events",
     "Shared updates and supported active student engagement",
     "Helped plan and execute events smoothly"
+    ]
+},
+{
+    title: "Senior High School - Technical Vocational Livelihood (TVL) Strand",
+    company: "Pasig Catholic College",
+    date: "Batch 2021",
+    bullets: [
+    "Studied computer hardware servicing and gained hands-on troubleshooting experience",
+    "Learned Java programming fundamentals and applied them in academic projects",
+    "Built a strong foundation in technology, preparing for advanced IT studies in college"
     ]
 }
 ];
