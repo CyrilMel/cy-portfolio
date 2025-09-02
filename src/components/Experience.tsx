@@ -1,5 +1,12 @@
 const experienceData = [
 {
+    title: "Product/Software Tester",
+    company: "SeaBank Philippines, Inc. (A Rural Bank)",
+    date: "September 2025 - Present",
+    bullets: [
+    ]
+},
+{
     title: "Frontend Developer Intern",
     company: "Integratr Corporation",
     date: "Feb 2025 - May 2025",
